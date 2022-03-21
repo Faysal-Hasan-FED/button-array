@@ -8,7 +8,8 @@ document.getElementById('my-btn').addEventListener('click',()=>{
 
     setInterval(()=> {            
     document.getElementById('my-text').innerHTML = myTexts[i++];    
-    if (i == myTexts.length) i = 0;   
+    if (i == myTexts.length) 
+    {i = 0};   
 }, 1000); 
 
 })
